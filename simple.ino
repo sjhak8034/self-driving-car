@@ -14,7 +14,9 @@ void setup() {
 
 void loop() {
   //int val=analogRead(analogPin);
-  //int resistor=map(val, 100, 130, toLow, toHigh);
+  //int motorSpeed=map(val, 100, 130, toLow, toHigh);
+  //analogWrite(motorDirection1Pin, motorSpeed);
+  //analogWrite(motorDirection2Pin, motorSpeed);
   
   // 모터를 좌측으로 회전하도록 설정
   digitalWrite(motorDirection1Pin, LOW); // 모터 방향 핀 1 설정 (전진)
