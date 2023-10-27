@@ -15,13 +15,19 @@ void setup() {
 void loop() {
   //int val=analogRead(analogPin);
   //int resistor=map(val, 100, 130, toLow, toHigh);
+  
   // 모터를 좌측으로 회전하도록 설정
   digitalWrite(motorDirection1Pin, LOW); // 모터 방향 핀 1 설정 (전진)
   digitalWrite(motorDirection2Pin, HIGH); // 모터 방향 핀 2 설정 (반대 방향)
+  
    // 일정 시간 동안 회전
   delay(2000); // 2초 동안 회전
+  
   digitalWrite(motorDirection1Pin, HIGH); // 모터 방향 핀 1 설정 (전진)
   digitalWrite(motorDirection2Pin, LOW); // 모터 방향 핀 2 설정 (반대 방향)
+
+  // 일정 시간 동안 회전
+  delay(2000); // 2초 동안 회전
   
  
   
