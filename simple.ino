@@ -1,6 +1,7 @@
 // 모터 제어를 위한 핀 설정
 int motorDirection1Pin = 8; // 모터 방향 핀 1
 int motorDirection2Pin = 9; // 모터 방향 핀 2
+//모터 회전 속도 최대 150, 최소 10
 //int motorA1=8;
 //int motorA2=9;
 //int motorA3=10;
@@ -18,7 +19,7 @@ void setup() {
 
 void loop() {
   //int val=analogRead(analogPin);
-  //int motorSpeed=map(val, 100, 130, toLow, toHigh);
+  //int motorSpeed=map(val, 100, 130, ToLow, ToHigh);
   //analogWrite(motorDirection1Pin, motorSpeed);
   //analogWrite(motorDirection2Pin, motorSpeed);
   //motor_forward(motorA1, motorA2, 75);
