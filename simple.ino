@@ -1,6 +1,10 @@
 // 모터 제어를 위한 핀 설정
 int motorDirection1Pin = 8; // 모터 방향 핀 1
 int motorDirection2Pin = 9; // 모터 방향 핀 2
+//int motorA1=8;
+//int motorA2=9;
+//int motorA3=10;
+//int motorA4=11;
 
 // 가변 저항을 읽기 위한 핀 설정
 //int analogPin=A0;
@@ -17,6 +21,8 @@ void loop() {
   //int motorSpeed=map(val, 100, 130, toLow, toHigh);
   //analogWrite(motorDirection1Pin, motorSpeed);
   //analogWrite(motorDirection2Pin, motorSpeed);
+  //motor_forward(motorA1, motorA2, 75);
+  //motor_forward(motorA3, motorA4, 75);
   
   // 모터를 좌측으로 회전하도록 설정
   digitalWrite(motorDirection1Pin, LOW); // 모터 방향 핀 1 설정 (전진)
