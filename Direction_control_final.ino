@@ -1,8 +1,8 @@
+// 방향 조향 code
+
 #include <Car_Library.h>
 
 int analogPin=A0; //가변저항 output pin
-
-// 방향 조향 code
 
 // 모터 제어를 위한 핀 설정
 int motorDirection1Pin = 8; // 모터 방향 핀 1
