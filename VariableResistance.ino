@@ -1,3 +1,5 @@
+// 가변저항 읽는 코드
+
 #include <Car_Library.h>
 
 int analogPin=A0; //가변저항 output pin
