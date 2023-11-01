@@ -1,0 +1,9 @@
+https://github.com/khleexv/KMUADC_2019/blob/master/racecar/racecar/scripts/main.py
+국민대 자율주행 대상 github
+ROS 방식인듯
+
+https://github.com/Ori-dori/scale-car/blob/2b8e95c4b213d156b03672070c0a966e1f96a5c2/src/scalecar/scripts/main_class_hsv.py
+스케일카 자율주행 1등 github
+
+https://velog.io/@choonsik_mom/Lane-Detection%EC%B0%A8%EC%84%A0-%EC%9D%B8%EC%8B%9D#%EF%B8%8F-how-to-
+차선 인식 알고리즘 종류 소개
